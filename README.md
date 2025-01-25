@@ -200,11 +200,11 @@ service 데이터를 처리하고 interface를 통해 데이터와 함께 Client
 </details>
 
 ## 실행
-mysql에 이름이 insurance인 데이터베이스를 생성&접속하여 DDL.txt의 쿼리를 실행
+1. mysql에 이름이 insurance인 데이터베이스를 생성&접속하여 DDL.txt의 쿼리를 실행
 
-모든 Server 프로젝트의 Dao 생성자에서 userName과 password를 본인 mysql계정에 맞게 수정
+2. 모든 Server 프로젝트의 Dao 생성자에서 userName과 password를 본인 mysql계정에 맞게 수정
 
-StartRMIRegistryHere[JDK11] 폴더에서 cmd를 켜고 start rmiregistry 입력
+3. StartRMIRegistryHere[JDK11] 폴더에서 cmd를 켜고 start rmiregistry 입력
 
-Server 프로젝트를 모두 실행하고 Client 프로젝트 실행 (JDK11 사용)
+4. Server 프로젝트를 모두 실행하고 Client 프로젝트 실행 (JDK11 사용)
 
